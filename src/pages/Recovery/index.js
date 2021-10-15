@@ -1,13 +1,10 @@
 import React from 'react';
+import EmailPassword from '../../components/EmailPassword';
 
 const Recovery = (props) => {
     return (
-        <div>
-            <h1>
-                Email Password
-            </h1>
-        </div>
-    )
+       <EmailPassword />
+    );
 }
 
 export default Recovery;
