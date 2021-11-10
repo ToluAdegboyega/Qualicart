@@ -26,7 +26,7 @@ const Header = props => {
                      <img src={Logo} alt="Qualicart Logo" height="60px" width="200px" />
                     </Link>
                 </div>
-                <div className="callToActions">
+                <div className="headerCallToActions">
                     {currentUser && (
                         <ul>
                             <li>
